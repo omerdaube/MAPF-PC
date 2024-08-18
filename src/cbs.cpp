@@ -176,7 +176,7 @@ int main(int argc, char** argv)
 	cbs.runtime = runtime;
 	if (vm.count("output"))
 		cbs.saveResults(vm["output"].as<string>(), vm["agents"].as<string>());
-  cbs.clearSearchEngines();
+  	cbs.clearSearchEngines();
 
 	return 0;
 
